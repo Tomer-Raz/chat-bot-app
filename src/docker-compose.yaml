@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ai-chat-demo:latest
-    container_name: ai-chat-demo
+    image: chatbot-ydy:latest
+    container_name: chatbot-ydy
     ports:
       - "8085:50505"   # maps host port 8080 -> container port 50505
     restart: unless-stopped
